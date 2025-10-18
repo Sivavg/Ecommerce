@@ -1,0 +1,83 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.admin-container h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-orders {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.admin-order-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 2rem;
+  align-items: start;
+}
+
+.order-info h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.order-info p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.order-items-admin h4 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.admin-item {
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.order-status-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.order-status-control label {
+  font-weight: 600;
+  color: #333;
+}
+
+.status-select {
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.status-select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .admin-order-card {
+    grid-template-columns: 1fr;
+  }
+}
