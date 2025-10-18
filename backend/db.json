@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Electronic devices and gadgets"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "description": "Fashion and apparel"
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen",
+      "description": "Home appliances and kitchenware"
+    },
+    {
+      "id": 4,
+      "name": "Books",
+      "description": "Books and stationery"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "Premium noise-canceling wireless headphones",
+      "price": 2999,
+      "categoryId": 1,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest 5G smartphone with amazing camera",
+      "price": 24999,
+      "categoryId": 1,
+      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Cotton T-Shirt",
+      "description": "Comfortable cotton t-shirt",
+      "price": 499,
+      "categoryId": 2,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "description": "Classic denim jeans",
+      "price": 1299,
+      "categoryId": 2,
+      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+      "rating": 4.3
+    },
+    {
+      "id": 5,
+      "name": "Coffee Maker",
+      "description": "Automatic coffee maker machine",
+      "price": 3499,
+      "categoryId": 3,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "name": "Blender",
+      "description": "High-speed blender for smoothies",
+      "price": 1999,
+      "categoryId": 3,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "The Great Novel",
+      "description": "Bestselling fiction book",
+      "price": 399,
+      "categoryId": 4,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "name": "Programming Guide",
+      "description": "Complete programming tutorial book",
+      "price": 899,
+      "categoryId": 4,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "rating": 4.9
+    }
+  ]
+}
